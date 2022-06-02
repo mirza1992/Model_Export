@@ -1,7 +1,7 @@
 import pickle
 
-Pkl_Vectorizer = pickle.load(open("MirzaFiles/Pickle_TFIDF_Topic_Model.pkl","rb"))
-Pkl_LDA = pickle.load(open("MirzaFiles/Pickle_Topic_Model.pkl","rb"))
+Pkl_Vectorizer = pickle.load(open("Pickle_TFIDF_Topic_Model.pkl","rb"))
+Pkl_LDA = pickle.load(open("Pickle_Topic_Model.pkl","rb"))
 
 
 for index, topic in enumerate(Pickle_Topic_Model.components_):
